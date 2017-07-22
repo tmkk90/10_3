@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+/*
+ul li {
+	display: block;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+    margin: 0 auto;
+}
+*/
+
+ul {
+	width: 2000px;
+	padding: 0px;
+	margin: 0 auto;	
+}
+
+ul img{
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+
+#carousel {
+	/*display: block;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: solid orange;
+*/
+	max-width: 400px;
+	max-height: 300px;
+	overflow: hidden;	
+	border: solid blue;
+	position:absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+
+}
